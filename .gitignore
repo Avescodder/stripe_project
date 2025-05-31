@@ -1,10 +1,22 @@
-# Python-generated files
+#Django
+*.log
+*.pot
+*.pyc
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
 
-# Virtual environments
-.venv
+#Environment variables
+.env
+
+#IDE
+.vscode/
+.idea/
+*.sublime-*
+
+#OS
+.DS_Store
+Thumbs.db
