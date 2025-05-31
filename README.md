@@ -47,7 +47,6 @@ docker-compose up --build
 - `GET /item/{id}/` - страница товара
 - `GET /buy/{id}/` - создание Stripe Checkout Session
 - `GET /success/` - страница успешной оплаты
-```
 
 ## Инструкции по запуску:
 
