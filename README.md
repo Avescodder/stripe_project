@@ -33,7 +33,10 @@
 ### Запуск с Docker:
 
 ```bash
-docker-compose up --build
+docker compose up --build -d
+
+docker compose exec web python manage.py migrate
+docker compose exec web python manage.py createsuperuser
 ```
 
 ## Использование
